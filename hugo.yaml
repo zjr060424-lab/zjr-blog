@@ -1,0 +1,37 @@
+baseURL: "https://blog.aizjr.com/"
+title: "Zhou Junrui's Cloud Native Blog"
+paginate: 10
+theme: PaperMod
+languageCode: zh-cn
+defaultContentLanguage: zh
+
+params:
+  env: production
+  description: "周俊睿的云原生与开源实践笔记 | Kubernetes / Go / Agent"
+  author: "Zhou Junrui"
+  defaultTheme: auto
+  ShowReadingTime: true
+  ShowShareButtons: false
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+
+  homeInfoParams:
+    Title: "Hi there 👋 我是周俊睿"
+    Content: >
+      广州软件学院网络工程（云计算）本科在读（Top 1%） | Agent 开发实习生 (Go/Python)
+      
+      正在冲刺 CKA 认证，专注 Kubernetes 集群运维、服务容器化与云原生开源贡献（KubeEdge Ianvs Contributor）。
+
+  socialIcons:
+    - name: github
+      url: "https://github.com/zjr060424-lab"
+    - name: email
+      url: "mailto:1472202823@qq.com"
+
+menu:
+  main:
+    - identifier: posts
+      name: 文章归档
+      url: /posts/
+      weight: 10
